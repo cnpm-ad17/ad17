@@ -29,7 +29,7 @@
 							</div>
 
 							<div class="col-xs-12 padding0 form-group pst-relative">
-								<label for="" class="col-sm-4 control-label label-register">Họ và tên <span class="text-red">*</span></label>
+								<label for="" class="col-sm-4 control-label label-register">Tên đăng nhập <span class="text-red">*</span></label>
 								<div class="col-sm-8 padding0 div-input-margin-moblile">
 									<input type="text" id="input-name" name="name" class="form-control input-register" />									        	        <p id="error_name" class="hidden text-red error"></p>
      									<p class="text-red hidden error_submit error italic fontSize12"></p>
@@ -38,7 +38,7 @@
 
 							<div class="col-xs-12 padding0  form-group pst-relative">
 								<label for="" class="col-sm-4 control-label label-register">
-									Email <span class="text-red">*</span>
+									Mật khẩu <span class="text-red">*</span>
 								</label>
 								<div class="col-sm-8 padding0 div-input-margin-moblile">
 									<input type="text" id="input-email" name="email" class="form-control input-register" />									        	        <p id="error_email" class="hidden text-red error"></p>
@@ -46,6 +46,16 @@
 								</div>
 							</div>
 
+							<div class="col-xs-12 padding0  form-group pst-relative">
+								<label for="" class="col-sm-4 control-label label-register">
+									Nhập lại Mật khẩu <span class="text-red">*</span>
+								</label>
+								<div class="col-sm-8 padding0 div-input-margin-moblile">
+									<input type="text" id="input-email" name="email" class="form-control input-register" />									        	        <p id="error_email" class="hidden text-red error"></p>
+     									<p class="text-red hidden error_submit error italic fontSize12"></p>
+								</div>
+							</div>
+							
 							<div class="col-xs-12 padding0  form-group pst-relative">
 								<label for="" class="col-sm-4 control-label label-register">
 									Số điện thoại <span class="text-red">*</span>
