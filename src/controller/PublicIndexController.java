@@ -1,4 +1,4 @@
-package controller;
+﻿package controller;
 
 import java.util.List;
 
@@ -48,7 +48,7 @@ public class PublicIndexController {
 		modelMap.addAttribute("listNhomNganhNghe", nhomNganhNgheDao.getItems());
 	}
 	 
-	 //controller ajax select ngành nghề theo nhóm ngành nghề
+	 //controller ajax select ngành nghề theo nhóm ngành nghề nghề
 	@RequestMapping(value= {"/selectNNN"}, method=RequestMethod.GET,produces ="application/json;charset=UTF-8")
 	public @ResponseBody String selectNganhNghe(HttpServletRequest request,ModelMap modelMap) {
 		int maNNN=Integer.parseInt(request.getParameter("maNNN"));
